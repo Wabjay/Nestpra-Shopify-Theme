@@ -1,0 +1,25 @@
+{
+  "name": "nestpra",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r # Nestpra-Shopify-Theme\r =======\r # Dawn",
+  "main": "index.js",
+  "scripts": {
+    "build": "@tailwindcss -i ./assets/style.css -o ./assets/theme.css --minify",
+    "dev": "@tailwindcss -i ./assets/style.css -o ./assets/theme.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wabjay/Nestpra-Shopify-Theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wabjay/Nestpra-Shopify-Theme/issues"
+  },
+  "homepage": "https://github.com/Wabjay/Nestpra-Shopify-Theme#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11"
+  }
+}
